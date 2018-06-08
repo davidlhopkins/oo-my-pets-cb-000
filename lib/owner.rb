@@ -22,7 +22,7 @@ class Owner
   end
 
   def species.initialize
-    @species = human
+    @species = "human"
 
   end
 

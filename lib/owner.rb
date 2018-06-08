@@ -54,15 +54,17 @@ class Owner
   end
 
   def play_with_cats
-
+    cats = pets[:cats]
+    cats.each { |cat| cat.mood= "happy" }
   end
 
   def feed_fish
-
+    fishes = pets[:fishes]
+    fishes.each { |fish| fish.mood= "happy" }
   end
 
   def sell_pets
-
+    
   end
 
   def list_pets

@@ -21,7 +21,8 @@ class Owner
     self.all.clear
   end
 
-  def species(species)
+  def species.initialize
+    @species = human
 
   end
 

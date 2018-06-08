@@ -23,11 +23,10 @@ class Owner
 
   def species.initialize
     @species = "human"
-
   end
 
   def say_species
-
+    @species
   end
 
   def name(name)

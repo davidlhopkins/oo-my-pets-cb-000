@@ -34,7 +34,7 @@ class Owner
   end
 
   def buy_fish
-    self.fish.new(name)
+    
   end
 
   def buy_cat

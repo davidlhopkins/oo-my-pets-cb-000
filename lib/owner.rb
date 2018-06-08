@@ -33,10 +33,6 @@ class Owner
     @name= name
   end
 
-  def pets
-
-  end
-
   def buy_fish
     self.fish.new(name)
   end
